@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Socity Information</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <link rel="stylesheet" href="socity.css">
+</head>
+
+<body style="background-color: rgb(210, 210, 225);">
+
+  <!-- navigation bar -->
+
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand bg-dark navbar-dark" style="height: 50px; width: 100%;">
+      <ul class="navbar-nav">
+        <li class="nav-item animate__animated animate__flipInY">
+          <a class="navbar-brand mx-3" id="Dashboard"><b style="font-size: larger;">Commitee Dashbord</b></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <h1 class="heading text-center mt-2 animate__animated animate__heartBeat">Society Information</h1>
+
+  <!-- Notice,SMS,E-mail,Notification -->
+
+  <div class="container-fluid">
+
+    <div class="container-fluid mt-3 text-center">
+      <div class="row">
+        <div class="text-white col-md p-4 first">
+          <h5 class="animate__animated animate__lightSpeedInLeft">Send Notice</h5>
+        </div>
+
+
+        <div class="text-white col-md p-4 second">
+          <h5 class="animate__animated animate__lightSpeedInLeft">Send SMS</h5>
+        </div>
+
+
+        <div class="text-white col-md p-4 three">
+          <h5 class="animate__animated animate__lightSpeedInLeft">Send E-mail</h5>
+        </div>
+
+        <div class="text-white col-md p-4 four">
+          <h5 class="animate__animated animate__lightSpeedInLeft">Send-Notification</h5>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- maintenance, case in hand, bank balance, complains -->
+
+  <div class="container-fluid">
+
+    <div class="container-fluid mt-3 text-center">
+      <div class="row" id="div1">
+        <div class="text-danger col-md-2 p-2" id="one">
+          <h6 class="animate__animated animate__zoomIn"><b>MAINTENANCE DUE</b></h6>
+          <h2 class="animate__animated animate__zoomIn">₹23.3k</h2>
+        </div>
+        <div class="text-success col-md-2 p-2" id="two">
+          <h6 class="animate__animated animate__zoomIn"><b>CASE IN HAND</b></h6>
+          <h2 class="animate__animated animate__zoomIn">₹88.5k</h2>
+        </div>
+        <div class="text-dark col-md-2 p-2" id="three">
+          <h6 class="animate__animated animate__zoomIn"><b>BANK BALANCE</b></h6>
+          <h2 class="animate__animated animate__zoomIn">₹55k</h2>
+        </div>
+        <div class="text-warning col-md" id="four">
+          <h6><b class="text-dark">COMPLAINTS</b></h6>
+          <div class="progress"><b class="text-dark">Water Issue</b>&nbsp;
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:50%;">50%</div>
+          </div>
+          <div class="progress mt-1"><b class="text-dark">Electricity</b>&nbsp;
+            <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width:30%">30%</div>
+          </div>
+          <div class="progress mt-1"><b class="text-dark">Cleaning</b>&nbsp;
+            <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:15%">15%</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="container-fluid">
+
+
+    <div class="container-fluid mt-3">
+      <div class="row">
+
+        <!-- socity finanace -->
+
+        <div class="col-md-4" id="div1">
+          <h4 class="text-center">Socity Finances
+          </h4>
+          <div class="container mt-3">
+
+            <table class="table">
+
+              <tbody>
+                <tr>
+                  <td>Fixed Assets</td>
+                  <td>₹25800</td>
+                </tr>
+                <tr>
+                  <td>Investments</td>
+                  <td>₹22000</td>
+                </tr>
+                <tr>
+                  <td>Current Assets</td>
+                  <td>₹30000</td>
+                </tr>
+                <tr>
+                  <td>Reserve Funds</td>
+                  <td>₹26820</td>
+                </tr>
+                <tr>
+                  <td>Current Liablities</td>
+                  <td>₹15200</td>
+                </tr>
+                <tr>
+                  <td>Surplus</td>
+                  <td>₹85022</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="text-center"><input type="submit" class="btn main-btn" value="VIEW DETAILS" id="btn1">
+            </div>
+          </div>
+        </div>
+
+
+        <!-- socity Reports -->
+
+        <div class="col-md-4 text-center" id="socity-report">
+          <h4>
+            Download Report <svg xmlns="http://www.w3.org/2000/svg" width="20" height="23" fill="currentColor"
+              class="bi bi-download" viewBox="0 0 16 16">
+              <path
+                d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+              <path
+                d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+            </svg><i class="bi bi-download text-danger"></i></h4>
+          <img src="progress2.jpg" class="img" alt="" height="53%" width="100%">
+          <div><input type="submit" class="btn main-btn" value="INCOME & EXPENSES" id="btn1">
+            <input type="submit" class="btn main-btn" id="btn2" value="BALANCE SHEET">
+
+          </div>
+        </div>
+
+        <!-- Units, Owners, Tenants, Vacant Units -->
+
+        <div class="col-md-4">
+          <h4 class=" text-center">Resident Manager
+          </h4>
+
+          <div class="row mt-5 text-center">
+            <div class="col">
+              <input type="submit" class="btn btn-outline-danger rounded-pill" value="84">
+              <p><b>Total Units</b></p>
+            </div>
+
+            <div class="col">
+              <input type="submit" class="btn btn-outline-warning text-dark rounded-pill" value="05">
+              <p><b>Owners</b></p>
+            </div>
+          </div>
+
+          <div class="row text-center mt-5">
+            <div class="col">
+              <input type="submit" class="btn btn-outline-success rounded-pill" value="04">
+              <p><b>Tenants</b></p>
+            </div>
+
+            <div class="col">
+              <input type="submit" class="btn btn-outline-danger rounded-pill" value="10">
+              <p><b>Vacant Units</b></p>
+            </div>
+          </div>
+          <div class="text-center mt-4"><input type="submit" class="btn main-btn" value="TRANSFER UNIT">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
